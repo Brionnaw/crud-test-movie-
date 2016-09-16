@@ -1,0 +1,9 @@
+<h1>Home Page</h1>
+<a ui-sref="AddMovie">Add Movie</a>
+<ul>
+<li ng-repeat="m in vm.movies">
+
+   {{m.title}} - {{m.genre}}
+
+  </li>
+</ul>
